@@ -1,67 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Friend Finder Pro</title>
+    <meta charset="UTF-8">
+    <title>FriendFinder LOR</title>
 
-	<!-- Link to the jQuery Library -->
-  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-  	<!-- Including Font Awesome Icons -->
-  	<script src="https://use.fontawesome.com/b38c8ed4c7.js"></script>
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-	<!-- Link to reset stylesheet -->
-	<link rel="stylesheet" href="css/reset.css">
-
-	<!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-	<!-- Compiled and minified Materialize CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-
-	<!-- Compiled and minified Materialize JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-          
-	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header>
-		<nav>
-			<div class="nav-wrapper blue accent-2">
-				<i class="fa fa-book fa-5x" aria-hidden="true" id=logo-icon></i>
-				<a href="/" class="brand-logo" id="logo">Friend Finder</a>
-			</div>
-		</nav>
-	</header>
 
-	<main>
-		<div class="container">
-			<div class="row">
-				<div class="col s12 z-depth-5 mainpanel">
-					<div id="mainpanel-content">
-						<h1>Friend Finder</h1>
-						<div class="divider"></div>
-						<h4>Find a compatible friend by answering a few questions!</h4>
-						<a href="/app/public/survey.html">
-							<button class="btn waves-effect waves-light" type="submit" name="action">Go to Survey
-							</button>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
+    <div class="container">
 
+        <div class="jumbotron">
+            <h1 class=""><i class="fa fa-book" aria-hidden="true"></i> Friend Finder</h1>
+            <hr>
+            <h2 class="">Answer a few basic questions. </h2>
+            <h2 class="">Find the friend with the greatest compatibility!</h2>
+            <br>
 
-	<footer class="page-footer blue accent-2">
-		<div class="container">
-				<div class="col l6 s12">
-					<h5 class="white-text">Friend Finder App</h5>
-                    <p class="grey-text text-lighten-4">All responses are confidential and securely stored.</p>
-                    <br>
-				</div>
-		</div>
-	</footer>
+            <div class="">
+                <a href="survey.html"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Enter Survey</h4></button></a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="../data/friends.js">Friends List</a>
+            </div>
+        </footer>
+
+    </div>
+
 
 </body>
+
 </html>
