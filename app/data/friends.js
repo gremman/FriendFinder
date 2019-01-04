@@ -1,5 +1,5 @@
 // Array for friends data
-var friendsArray = [
+var friends = [
 	{
 		name: "Frodo",
 		photo: "https://i.pinimg.com/736x/1b/93/84/1b9384b6de87ab45a1391d454bd695c5.jpg",
@@ -162,4 +162,4 @@ var friendsArray = [
 	}
 ];
 
-module.exports = friendsArray;
+module.exports = friends;
